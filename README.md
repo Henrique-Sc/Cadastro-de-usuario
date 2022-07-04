@@ -11,7 +11,7 @@ Contém todo o conhecimento adquirido durante a conclusão do curso:
 * básico da linguagem
 * Utilização de módulos e bibliotecas
 * Cores no terminal
-* estrutura de decisão
+* estrutura de decisão (If, Else, Elif
 * estruta de repetição (For e While)
 * variáveis compostas (tuplas, listas e dicionários)
 * Funções
