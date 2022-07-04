@@ -22,12 +22,12 @@ Contém todo o conhecimento adquirido durante a conclusão do curso:
 
 ## Funcionamento do programa:
 
-Cria um menu, em que o usuário escolhe uma das opções: Cadastras um novo usuário, Listar todos os cadastros e sair do programa. Se escolher uma das duas primeiras, o programa verifica se o arquivo 'cadastros.txt' está criado. Se não tiver, ele irá cria-lo.
+Cria um menu em que o usuário escolhe uma das opções: cadastrar um novo usuário, listar todos os cadastros e sair do programa. Antes de executar uma das opções, o programa verifica se o arquivo 'cadastros.txt' está criado. Se não tiver, ele irá cria-lo.
 
 Ao cadastrar, pergunta ao usuário o seu nome e idade e salva no arquivo 'cadastros.txt' (o nome tem limitação de 18 caracteres).
 
 Ao listar, ele exibe em tabulação todos os cadastros, com o nome e idade das pessoas.
 
-E ao sair, exibe uma mensagem de despedida, e finaliza o programa.
+Ao sair, exibe uma mensagem de despedida, e finaliza o programa.
 
 <b>Em todas as ocasiões, contém tratamentos de erros</b>, caso o usuário digite valores inválido ou para corrigir excessões.
