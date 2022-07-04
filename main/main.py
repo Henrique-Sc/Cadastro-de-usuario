@@ -1,4 +1,3 @@
-from time import sleep as s
 import functions
 
 while True:
