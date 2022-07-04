@@ -4,7 +4,7 @@
 
 O programa permite cadastrar e listar o cadastro de pessoas
 
-Todo o cadastro fica salvo em um arquivo .txt
+Todo o cadastro fica salvo em um arquivo .txt, fazendo com que os dados fiquem salvos mesmo ao fechar o programa
 
 Contém todo o conhecimento adquirido durante a conclusão do curso: 
 
