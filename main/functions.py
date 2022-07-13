@@ -33,25 +33,6 @@ def erroMenu():
     sleep(1)
 
 
-def erroIdade():
-    print()
-    title('Erro! Digite a sua idade corretamente.', colorSimb=1, colorTitle=1, line=False)
-    print()
-
-
-def leiaIdade(txt):
-    while True:
-        try:
-            idade = int(input(txt).strip())
-        except:
-            erroIdade()
-        else:
-            if idade < 0:
-                erroIdade()
-            else:
-                return idade
-
-
 def menu():
     while True:
         title('CADASTRO DE USUÁRIO', colorSimb=3)
@@ -98,6 +79,25 @@ def opcoes(esc):
         elif esc == 3:
             sair()
         sleep(1)
+
+
+def erroIdade():
+    print()
+    title('Erro! Digite a sua idade corretamente.', colorSimb=1, colorTitle=1, line=False)
+    print()
+
+
+def leiaIdade(txt):
+    while True:
+        try:
+            idade = int(input(txt).strip())
+        except:
+            erroIdade()
+        else:
+            if idade < 0:
+                erroIdade()
+            else:
+                return idade
 
 
 def cadastrar():
