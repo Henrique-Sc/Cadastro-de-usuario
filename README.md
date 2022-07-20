@@ -31,7 +31,7 @@ Ao sair, exibe uma mensagem de despedida, e finaliza o programa.
 
 <b>Em todas as ocasiões, contém tratamentos de erros</b>, caso o usuário digite valores inválido ou para corrigir excessões.
 
-![](C:\Users\Denis\Documents\GitHub\MeusProjetos\Python\Projeto-Mundo3-CursoemVideo\Projeto-Mundo3-CursoemVideo\readme\menu.png)
+<img src=''>
 ## Utilização do programa:
 
 Faça download da pasta 'main' e execute o arquivo 'main.py' pelo intérprete do python.
