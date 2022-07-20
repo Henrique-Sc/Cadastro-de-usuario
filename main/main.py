@@ -18,6 +18,7 @@ while True:
     # Listar os cadastros
     elif esc == 2:
         titulo('Lista dos cadastros', corSimb=3)
+        mostrarCadastro(nomeArquivo, tmn=35)
 
     # Sair do programa
     elif esc == 3:
