@@ -1,4 +1,5 @@
-Henrique Sc;16
-Henrique;1
+Henrique;24
 Gustavo;11
-Maria;55
+Maria;29
+Eduarda;17
+João; 55
