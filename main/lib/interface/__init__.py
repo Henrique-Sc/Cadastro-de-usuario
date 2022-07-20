@@ -12,11 +12,11 @@ cores = [
 ]
 
 
-def linha(tmh=30, simb='=', corSimb=0):
+def linha(tmh=35, simb='=', corSimb=0):
     print(f'{cores[corSimb]}{simb}{cores[0]}' * tmh)
 
 
-def titulo(msg, simb='=', corMsg=0, corSimb=0, tmn=30):
+def titulo(msg, simb='=', corMsg=0, corSimb=0, tmn=35):
     linha(tmn, simb, corSimb)
     print(cores[corMsg] + msg.center(tmn) + cores[0])
     linha(tmn, simb, corSimb)

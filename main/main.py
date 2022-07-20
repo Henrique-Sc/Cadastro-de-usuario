@@ -1,6 +1,8 @@
 from lib.interface import *
 from lib.arquivo import *
+from lib.dado import *
 
+arquivoExiste('cadastros.txt')
 while True:
     titulo('CADASTRO DE USUÁRIO', corSimb=4)
     esc = opcoes('Cadastrar', 'Lista dos cadastros', 'Sair do programa', corNum=1, corLinha=3)
@@ -8,14 +10,13 @@ while True:
     # Cadastrar
     if esc == 1:
         titulo('Cadastrar', corSimb=3)
-
-        sleep(1)
+        nome = leiaNome('Nome: ')
+        # idade = leiaIdade('Idade: ')
+        # cadastrar(nome, idade)
 
     # Listar os cadastros
     elif esc == 2:
         titulo('Lista dos cadastros', corSimb=3)
-
-        sleep(1)
 
     # Sair do programa
     elif esc == 3:
