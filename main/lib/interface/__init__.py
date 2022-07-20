@@ -36,7 +36,7 @@ def opcoes(*opcoes, corNum=0, corLinha):
         for c, opcao in enumerate(opcoes, start=1):
             print(f' {cores[corNum]}{c}{cores[0]} - {opcao}')
             sleep(0.25)
-        sleep(0.25)
+        sleep(0.75)
         linha(corSimb=corLinha)
 
         try:
