@@ -31,11 +31,16 @@ Ao cadastrar, pergunta ao usuário o seu nome e idade e salva no arquivo 'cadast
 
 Ao listar, ele exibe em tabulação todos os cadastros, com o nome e idade das pessoas.
 
-<img src='readme/listar.png'>
+<img src='readme/listar-cadastro.png'>
 
 Ao sair, exibe uma mensagem de despedida, e finaliza o programa.
 
+<img src='readme/sair-programa.png'>
+
 <b>Em todas as ocasiões, contém tratamentos de erros</b>, caso o usuário digite valores inválido ou para corrigir excessões.
+
+<img src='readme/cadastrar-error.png'>
+
 
 ## Utilização do programa:
 
