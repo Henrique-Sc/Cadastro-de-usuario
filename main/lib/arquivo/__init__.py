@@ -6,5 +6,5 @@ def arquivoExiste(nomeArquivo):
         pass
 
 
-# def cadastrar(nome, idade):
-#     pass
+def cadastrar(nome, idade):
+    pass
