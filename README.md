@@ -26,8 +26,6 @@ Cria um menu em que o usuário escolhe uma das opções: cadastrar um novo usuá
 
 Ao cadastrar, pergunta ao usuário o seu nome e idade e salva no arquivo 'cadastros.txt' (o nome tem limitação de 22 caracteres).
 
-
-
 Ao listar, ele exibe em tabulação todos os cadastros, com o nome e idade das pessoas.
 
 Ao sair, exibe uma mensagem de despedida, e finaliza o programa.
@@ -38,6 +36,13 @@ Ao sair, exibe uma mensagem de despedida, e finaliza o programa.
 
 ## Utilização do programa:
 
-Basta ter o python (de preferência, python 3.9 ou superior) instalado na sua máquina, e executar o arquivo 'main.py' pelo intérprete do python.
+Faça download da pasta 'main' e execute o arquivo 'main.py' pelo intérprete do python.
 
-**Obs: A pasta 'lib' precisa estar junto com o programa**
+**Obs: A pasta 'lib' precisa estar junto com o 'main.py'**
+
+#
+
+## Requisitos:
+
+* Python 3.9 ou superior
+
