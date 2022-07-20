@@ -45,8 +45,8 @@ def opcoes(*opcoes, corNum=0, corLinha):
         except ValueError:
             msgErro('ERRO: Digite um número inteiro.')
 
-        except KeyboardInterrupt:
-            msgErro('ERRO: Você preferiu não digitar esse número.')
+        except (KeyboardInterrupt, InterruptedError):
+            msgErro('ERRO: Programa interrompido pelo usuário.')
         else:
             if opcao < 1 or opcao > len(opcoes):
                 msgErro('ERRO: Digite uma opção válida.')
