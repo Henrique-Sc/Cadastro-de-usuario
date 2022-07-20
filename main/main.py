@@ -10,9 +10,10 @@ while True:
     # Cadastrar
     if esc == 1:
         titulo('Cadastrar', corSimb=3)
-        nome = leiaNome('Nome: ')
-        # idade = leiaIdade('Idade: ')
-        # cadastrar(nome, idade)
+
+        nome = leiaNome('Digite o seu nome: ')
+        idade = leiaIdade('Digite a sua idade: ')
+        cadastrar(nome, idade)
 
     # Listar os cadastros
     elif esc == 2:
