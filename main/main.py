@@ -2,7 +2,7 @@ from lib.interface import *
 from lib.arquivo import *
 from lib.dado import *
 
-arquivoExiste('cadastros.txt')
+nomeArquivo = 'cadastros.txt'
 while True:
     titulo('CADASTRO DE USUÁRIO', corSimb=4)
     esc = opcoes('Cadastrar', 'Lista dos cadastros', 'Sair do programa', corNum=1, corLinha=3)
@@ -13,7 +13,7 @@ while True:
 
         nome = leiaNome('Digite o seu nome: ')
         idade = leiaIdade('Digite a sua idade: ')
-        cadastrar(nome, idade)
+        cadastrar(nomeArquivo, nome, idade)
 
     # Listar os cadastros
     elif esc == 2:
