@@ -18,7 +18,7 @@ def cadastrar(nomeArquivo, nome, idade, tmn=35):
     with open(nomeArquivo, 'a', encoding='utf-8') as arquivo:
         arquivo.write(f'{nome};{idade}\n')
     sleep(1)
-    print(f'\n{"> Cadastro realizado com sucesso! <":^{tmn}}\n')
+    print(f'\n\033[34m{"> Cadastro realizado com sucesso! <":^{tmn}}\033[m\n')
     sleep(1)
 
 
