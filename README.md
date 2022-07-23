@@ -23,23 +23,23 @@ Contém todo o conhecimento adquirido durante a conclusão do curso:
 
 Cria um menu em que o usuário escolhe uma das opções: cadastrar um novo usuário, listar todos os cadastros e sair do programa. Antes de executar uma das opções, o programa verifica se o arquivo 'cadastros.txt' está criado. Se não tiver, ele irá cria-lo.
 
-<img src='readme/menu.png'>
+<img src="readme/menu.png">
 
 Ao cadastrar, pergunta ao usuário o seu nome e idade e salva no arquivo 'cadastros.txt' (o nome tem limitação de 22 caracteres).
 
-<img src='readme/cadastrar.png'>
+<img src="readme/cadastrar.png">
 
 Ao listar, ele exibe em tabulação todos os cadastros, com o nome e idade das pessoas.
 
-<img src='readme/listar-cadastro.png'>
+<img src="readme/listar-cadastro.png">
 
 Ao sair, exibe uma mensagem de despedida, e finaliza o programa.
 
-<img src='readme/sair-programa.png'>
+<img src="readme/sair-programa.png">
 
 <b>Em todas as ocasiões, contém tratamentos de erros</b>, caso o usuário digite valores inválido ou para corrigir excessões.
 
-<img src='readme/cadastrar-error.png'>
+<img src="readme/cadastrar-error.png">
 
 
 ## Utilização do programa:
