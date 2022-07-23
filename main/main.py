@@ -33,3 +33,7 @@ while True:
 
     except KeyboardInterrupt:
         msgErro('ERRO: O usuário interrompeu o programa.')
+        titulo('Saindo do programa...', corSimb=3, tmn=tmn)
+        print(f'{cores[4]}{"-> Volte sempre! <-":^{tmn}}{cores[0]}')
+        sleep(1)
+    break
