@@ -33,11 +33,11 @@ Ao listar, ele exibe em tabulação todos os cadastros, com o nome e idade das p
 
 <img src="readme/listar-novo.png" alt="Imagem mostrando a lista de cadastro">
 
-Ao sair, exibe uma mensagem de despedida, e finaliza o programa.
+Ao sair, exibe uma mensagem de despedida e finaliza o programa.
 
 <img src="readme/sair-novo.png" alt="Imagem de despedida">
 
-O programa fica em loop até o usuário querer sair.
+Obs: o programa fica em loop até o usuário querer sair.
 
 <b>Em todas as ocasiões, contém tratamentos de erros</b>, caso o usuário digite valores inválido ou para corrigir excessões.
 
