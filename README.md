@@ -37,6 +37,8 @@ Ao sair, exibe uma mensagem de despedida, e finaliza o programa.
 
 <img src="readme/sair-programa.png">
 
+O programa fica em loop até o usuário querer sair.
+
 <b>Em todas as ocasiões, contém tratamentos de erros</b>, caso o usuário digite valores inválido ou para corrigir excessões.
 
 <img src="readme/cadastrar-error.png">
