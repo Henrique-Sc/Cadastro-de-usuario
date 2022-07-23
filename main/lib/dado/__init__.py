@@ -7,7 +7,7 @@ def msgErro(msg):
 
 
 def leiaNome(msg):
-    print('\033[37mMáximo de 22 caracteres.\033[m')
+    print('\033[37mMáximo de 16 caracteres.\033[m')
     while True:
         try:
             nome = str(input(msg)).strip().title()
@@ -17,7 +17,7 @@ def leiaNome(msg):
 
         else:
             if len(nome) > 22:
-                msgErro('ERRO: Nome maior que 22 caracteres.')
+                msgErro('ERRO: Nome maior que 16 caracteres.')
             elif len(nome) < 3:
                 msgErro(f'ERRO: \'{nome}\' não é um nome válido.')
 
