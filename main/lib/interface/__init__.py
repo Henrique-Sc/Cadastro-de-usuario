@@ -12,8 +12,8 @@ cores = [
 ]
 
 
-def linha(tmh=35, simb='=', corSimb=0):
-    print(f'{cores[corSimb]}{simb}{cores[0]}' * tmh)
+def linha(tmn=35, simb='=', corSimb=0):
+    print(f'{cores[corSimb]}{simb}{cores[0]}' * tmn)
 
 
 def titulo(msg, simb='=', corMsg=0, corSimb=0, tmn=35):
@@ -29,7 +29,7 @@ def msgErro(msg):
     sleep(1)
 
 
-def opcoes(*opcoes, corNum=0, corLinha):
+def opcoes(*opcoes, corNum=0, corLinha, tmn=35):
     while True:
         # Listar as opções
         linha(corSimb=corLinha)
@@ -37,7 +37,7 @@ def opcoes(*opcoes, corNum=0, corLinha):
             print(f' {cores[corNum]}{c}{cores[0]} - {opcao}')
             sleep(0.25)
         sleep(0.75)
-        linha(corSimb=corLinha)
+        linha(corSimb=corLinha, tmn=tmn)
 
         try:
             opcao = int(input(f'O que deseja fazer? ').strip())
