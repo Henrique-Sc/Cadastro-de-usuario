@@ -36,4 +36,4 @@ while True:
         titulo('Saindo do programa...', corSimb=3, tmn=tmn)
         print(f'{cores[4]}{"-> Volte sempre! <-":^{tmn}}{cores[0]}')
         sleep(1)
-    break
+        break
