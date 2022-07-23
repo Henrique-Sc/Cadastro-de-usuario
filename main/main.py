@@ -3,6 +3,8 @@ from lib.arquivo import *
 from lib.dado import *
 
 nomeArquivo = 'cadastros.txt'
+arquivoExiste(nomeArquivo)
+
 while True:
     try:
         titulo('CADASTRO DE USUÁRIO', corSimb=4)
