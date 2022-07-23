@@ -9,7 +9,7 @@ while True:
     try:
         titulo('CADASTRO DE USUÁRIO', corSimb=4)
         esc = opcoes('Cadastrar', 'Lista dos cadastros', 'Sair do programa', corNum=1, corLinha=3)
-
+        print()
         # Cadastrar
         if esc == 1:
             titulo('Cadastrar', corSimb=3)
