@@ -1,5 +1,0 @@
-Gustavo;11
-Eduarda;17
-João;55
-Henrique Da Siva;18
-Maria;29
