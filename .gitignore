@@ -4,3 +4,4 @@ main/lib/dado/__pycache__/__init__.cpython-39.pyc
 main/lib/interface/__pycache__/__init__.cpython-39.pyc
 
 main/cadastros.txt
+*.pyc
