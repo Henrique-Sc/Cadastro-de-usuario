@@ -2,9 +2,9 @@
  
 ## Projeto final do Mundo 3 do curso de Python do site Curso em Vídeo
 
-O programa permite cadastrar e listar o cadastro de pessoas
+O programa permite cadastrar e listar o cadastro de pessoas.
 
-Todo o cadastro fica salvo em um arquivo .txt, fazendo com que os dados fiquem salvos mesmo ao fechar o programa
+Todo o cadastro fica salvo em um arquivo .txt, fazendo com que os dados fiquem salvos mesmo ao fechar o programa.
 
 Contém todo o conhecimento adquirido durante a conclusão do curso: 
 
